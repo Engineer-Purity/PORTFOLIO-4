@@ -1,0 +1,60 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+body {
+    background: rgb(85, 173, 68);
+    font-size: 14px;
+    line-height: 25px;
+    resize: 0;
+  }
+topnav {
+font-family: 'Courier New', Courier, monospace;
+
+  }
+
+
+
+input,
+textarea,
+button,
+select {
+  outline: none !important;
+  font-size: 14px;
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.pt-wrapper {
+  overflow: hidden;
+}
+
+.padding {
+  padding: 24px;
+}
+
+.pt-dtable {
+  display: table;
+}
+
+.pt-vmiddle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.w-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
